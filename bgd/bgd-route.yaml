@@ -7,7 +7,7 @@ metadata:
   name: bgd
   namespace: bgd
 spec:
-  host: "m85819c3d22f6b57ee61c-6b64a6ccc9c596bf59a86625d8fa2202-ce00.us-east.satellite.appdomain.cloud"
+  host: "https://m85819c3d22f6b57ee61c-6b64a6ccc9c596bf59a86625d8fa2202-ce00.us-east.satellite.appdomain.cloud:31965"
   port:
     targetPort: 31965
   to:
