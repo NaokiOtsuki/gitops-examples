@@ -3,17 +3,17 @@ kind: Route
 metadata:
   creationTimestamp: null
   labels:
-    app: bgd
-  name: bgd
-  namespace: bgd
+    app: color-sample-app
+  name: color-sample-app-route
+  namespace: notsuki
 spec:
-  host: "bgd.satellite-sandbox-move-9ae785d5bdb27f66d7c396d737966703-0000.upi.containers.appdomain.cloud"
+  host: "notsuki.satellite-sandbox-move-9ae785d5bdb27f66d7c396d737966703-0000.upi.containers.appdomain.cloud"
   port:
     targetPort: 8080
   to:
     kind: Service
-    name: bgd
-    weight: 90
+    name: color-sample-app-svc
+    weight: 100
 status:
   ingress:
   - conditions:
